@@ -1,0 +1,96 @@
+.register-wrapper {
+    margin-left: 110dvh;
+    padding-top: 100px;
+  
+    h2 {
+      color: rgb(29, 0, 29);
+      margin-top: 20px;
+    }
+  
+    .form-container {
+      margin-top: 150px;
+  
+      .name-input,
+      .number-input {
+        width: 510px;
+        height: 50px;
+        border-radius: 10px;
+        border: none;
+        border: solid 3px rgb(245, 245, 245);
+        padding-left: 20px;
+        font-size: 25px;
+        margin-top: 20px;
+      }
+  
+      .exp-date-cvc-inputs {
+        display: flex;
+        align-items: flex-start;
+        margin-top: 20px;
+  
+        div {
+          margin-right: 10px; /* Ensure spacing between MM, YY, and CVC */
+        }
+  
+        .exp-input {
+          width: 80px;
+          height: 50px;
+          border-radius: 10px;
+          border: none;
+          border: solid 3px rgb(245, 245, 245);
+          padding-left: 20px;
+          font-size: 25px;
+          margin-right: 10px;
+        }
+  
+        .cvc-input {
+          width: 268px;
+          height: 50px;
+          border-radius: 10px;
+          border: none;
+          border: solid 3px rgb(245, 245, 245);
+          padding-left: 20px;
+          font-size: 25px;
+        }
+  
+        .error-message-inline {
+          font-weight: 600;
+          color: rgb(243, 43, 120);
+          font-size: 14px;
+          margin-top: 5px;
+          margin-right: 20px; /* Spacing for inline errors */
+        }
+      }
+  
+      .error-message {
+        color: rgb(243, 43, 120);
+        font-weight: 600;
+        font-size: 16px;
+        margin-top: 5px;
+      }
+  
+      button {
+        margin-top: 30px;
+        width: 535px;
+        height: 70px;
+        font-size: 25px;
+        background-color: rgb(35, 0, 35);
+        border-radius: 10px;
+        color: white;
+        cursor: pointer;
+        &:hover {
+          background-color: white;
+          color: rgb(35, 0, 35);
+          transition: 0.3s;
+        }
+      }
+  
+      .error-border {
+        border-color: rgb(243, 43, 120) !important;
+      }
+    }
+  
+    .card-wrapper {
+      margin-top: 50px;
+    }
+  }
+  

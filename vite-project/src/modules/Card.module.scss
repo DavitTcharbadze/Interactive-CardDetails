@@ -1,0 +1,50 @@
+.card-wrapper {
+    .front-card {
+        width: 550px;
+        height: 450px;
+        background: url('../assets/images/bg-card-front.png');
+        background-repeat: no-repeat; 
+        position: absolute;
+        left: 300px;
+        top: 200px;
+        img{
+            margin-left: 30px;
+            margin-top: 35px;
+        }
+        h1{
+            color: white;
+            padding-left: 50px;
+            margin-top: 60px;
+            font-size: 40px;
+        }
+        .secondary-title{
+            h3{
+                color: white;
+            }
+            margin-top: 15px;
+            margin-left: 35px;
+            
+        }
+        .secondary-title2{
+            h3{
+                color: white;
+            }
+            margin-left: 365px;
+            margin-top: -19px;
+        }
+    }
+    .back-card {
+        width: 400px;
+        height: 300px;
+        position: absolute;
+        left: 430px;
+        top: 480px;
+        h1{
+            color: white;
+            padding-left: 50px;
+            font-size: 30px;
+            margin-top: -144px;
+            margin-left: 280px;
+        }
+    }
+}
